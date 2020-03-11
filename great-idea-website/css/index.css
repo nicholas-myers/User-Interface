@@ -65,14 +65,27 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+/* GENERAL */
 body {
 	margin: 0 5%;
+	text-align: center;
 }
 
+/* NAVIGATION */
 nav {
-	display: inline-block;
+	display: inline;
 }
 
 img {
-	width: 25%;
+	display: inline;
+}
+
+a {
+	text-decoration: none;
+	color: darkslategray;
+	align: left;
+}
+
+nav a {
+	margin: 0 3%;
 }
