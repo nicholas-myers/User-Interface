@@ -66,17 +66,17 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 /* GENERAL */
+* {
+	border: 1px solid gray !important;
+}
+
 body {
-	margin: 0 5%;
+	margin: 2% 5%;
 	text-align: center;
 }
 
 /* NAVIGATION */
-nav {
-	display: inline;
-}
-
-a {
+nav a {
 	text-decoration: none;
 	color: darkslategray;
 }
@@ -103,12 +103,23 @@ header div {
 }
 
 h1 {
-	font-size: 587%;	
+	font-size: 700%;	
 }
 
 button {
 	padding: 1% 10%;
+	background-color: white;
+	border: 1px solid black;
 }
 
 /* CONTENT */
+.topContent div {
+	display: inline-block;
+	width: 40%;
+	margin: 0 5%;
+}
 
+
+img.middle-img {
+	width: 100%;
+}
