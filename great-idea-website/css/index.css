@@ -91,6 +91,7 @@ nav a {
 }
 
 /* HEADER*/
+
 header {
 	margin: 5%;
 }
@@ -102,7 +103,12 @@ header div {
 }
 
 h1 {
-	font-size: 587%;
-	height: 50vh;	
+	font-size: 587%;	
 }
+
+button {
+	padding: 1% 10%;
+}
+
+/* CONTENT */
 
