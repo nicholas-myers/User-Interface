@@ -97,6 +97,10 @@ header {
 	margin: 5%;
 }
 
+header div {
+	display: inline-block;
+}
+
 header img {
-	width: 10%;
+	width: 40%;
 }
