@@ -76,12 +76,23 @@ body {
 }
 
 /* NAVIGATION */
+nav {
+	background-color: darkblue;
+}
 
+nav div {
+	display: inline;
+	width: 100%;
+}
 
 nav a {
 	text-decoration: none;
-	color: darkslategray;
+	color: white;
 	margin: 0 3%;
+}
+
+nav a:hover {
+	color: yellow;
 }
 
 img.logo {
