@@ -73,6 +73,7 @@ h1, h2, h3, h4, h5 {
 body {
 	margin: 2% 5%;
 	text-align: center;
+	font-family: 'Carter One', cursive;
 }
 
 /* NAVIGATION */
@@ -88,24 +89,25 @@ nav div {
 	width: 100%;
 }
 
-.links a {
+nav a {
 	text-decoration: none;
 	color: white;
 	margin: 5% 3%;
 	font-size: 20px;
-	text-shadow: 1px 1px black;
-	text-shadow: 2px 2px 2px yellow;
-	text-shadow: 3px 3px 3px 3px black;
+	text-shadow: 1px 1px yellow;
+	text-shadow: 2px 2px 2px black;
 }
 
 
 nav a:hover {
 	color: yellow;
+	text-shadow: 1px 1px black;
+	text-shadow: 2px 2px 2px black;
 }
 
 img.logo {
 	display: inline;
-	margin-left: 10%;
+	margin-left: 5%;
 	filter: invert(100%);
 }
 
@@ -123,7 +125,7 @@ header div {
 }
 
 h1 {
-	font-size: 500%;	
+	font-size: 500%;
 }
 
 button {
@@ -134,11 +136,19 @@ button {
 	font-size: 20px;
 	text-shadow: 1px 1px yellow;
 	text-shadow: 1px 1px 1px yellow;
+	font-family: 'Carter One', cursive;
 }
 
 button:hover {
 	background-color: dodgerblue;
-	color: black;
+	color: white;
+	text-shadow: 1px 1px black;
+	text-shadow: 2px 2px 2px black;
+}
+
+header img {
+	border-radius: 100%;
+	border: 3px solid darkblue;
 }
 
 /* CONTENT */
@@ -159,7 +169,7 @@ h2, p {
 }
 
 img.middle-img {
-	width: 100%;
+	width: 80%;
 	margin: 1% 0; 
 	border: 2px solid yellow;
 	outline: 2px solid black;
